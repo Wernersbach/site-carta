@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade: Carta HTML</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            padding: 40px;
+            color: #333;
+        }
+        .carta {
+            background-color: white;
+            width: 100%;
+            max-width: 700px;
+            padding: 60px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            line-height: 1.6;
+        }
+        address {
+            font-style: normal;
+            text-align: right;
+            margin-bottom: 40px;
+        }
+        .data {
+            margin-bottom: 30px;
+        }
+        .saudacao {
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .corpo-carta {
+            text-align: justify;
+            text-indent: 50px;
+        }
+        blockquote {
+            font-style: italic;
+            margin: 30px 50px;
+            border-left: 4px solid #ccc;
+            padding-left: 15px;
+        }
+        .assinatura {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <article class="carta">
+        <address>
+            <strong>Origem H - Couros Artesanais</strong><br>
+            Balneário Camboriú, SC<br>
+            Brasil
+        </address>
+
+        <p class="data">Balneário Camboriú, 06 de março de 2026.</p>
+
+        <p class="saudacao">Prezado Cliente,</p>
+
+        <main class="corpo-carta">
+            <p>
+                Escrevo esta carta como parte da atividade prática de desenvolvimento web. O objetivo aqui é demonstrar a estruturação de um documento de texto formal utilizando exclusivamente a linguagem de marcação HTML.
+            </p>
+
+            <p>
+                Abaixo, apresento uma breve citação sobre a importância do aprendizado contínuo na área de tecnologia, estruturada com a tag de citação do HTML:
+            </p>
+
+            <blockquote cite="https://exemplo.com">
+                "O design não é apenas o que parece e o que se sente. O design é como funciona."
+            </blockquote>
+
+            <p>
+                Espero que esta estrutura atenda aos requisitos da atividade proposta para esta semana.
+            </p>
+        </main>
+
+        <div class="assinatura">
+            <p>Atenciosamente,</p>
+            <p><strong>Handersen Monteiro</strong><br>
+            Desenvolvedor & Empreendedor</p>
+        </div>
+    </article>
+
+</body>
+</html>
